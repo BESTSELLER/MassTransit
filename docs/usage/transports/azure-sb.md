@@ -54,7 +54,7 @@ The following example shows how to configure Azure Service Bus using an Azure Ma
 
 <<< @/docs/code/transports/ServiceBusManagedIdentityConsoleListener.cs
 
-During local development, in the case of Visual Studio, you can configure the account to use under Options -> Azure Service Authentication. Note that your Azure Active Directory user needs explicit access to the resource and have the 'Azure Service Bus Data Owner' role assigned.
+During local development, in the case of Visual Studio, you can configure the account to use under Options -> Azure Service Authentication. Note that your Microsot Entra Idtive Directory user needs explicit access to the resource and have the 'Azure Service Bus Data Owner' role assigned.
 
 ::: warning WARNING
 To ensure that Mass Transit has sufficient permissions to perform queue management as well as messaging operations. Your identity & managed identity will need to have the correct role assignments within Azure.
